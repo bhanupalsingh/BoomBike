@@ -1,1 +1,20 @@
-Read meLending Club Case Study1. Data set is having 39717 rows and 111 column values.2. This study is done to analyse to who the loan was given and to get more idea on loan data set.Data cleaning:1. Removing the columns containing all the null values as these columns will be of no use.2. Analysing and filling the null values with mean value, as mean and median both having approximate same value.3. Changing the data type of the values wherever need like for date time 4. Removing the values which will not help in overall analysis like removing symbols Ô%Õ and extra spaces.Observations:1. In the data set we have Fully paid loan status with the heights number.2. debt_consolidation is having the highest number of loan issued.3. Number of loan issued in California state is the heighst.4. Rent with 18428 number of loan issued is the height among all5. We can see the number of loan issued to 36 month is the highest.6. loan issued to non verified status is the highest.7. Number of loan issued to Greade B is highest.8. Subgrade A4 is having highest number of loan issued.9. From grade A to G Interest rate is increased10. There are high funded amount in A,B,C and D grades11. Majority of borrowers have been employed for at least 10 years.12. There was a positive correlation between interest rates and return of interest for borrowers who paid their loans.13. Borrowers with higher income has positive return of interest.14. There are more defaulters in RENT and MORTGAGE, so issuing loan to them in future could be risky.
+Problem Statement
+A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
+
+
+A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. The company is finding it very difficult to sustain in the current market scenario. So, it has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown comes to an end, and the economy restores to a healthy state. 
+
+
+In such an attempt, BoomBikes aspires to understand the demand for shared bikes among the people after this ongoing quarantine situation ends across the nation due to Covid-19. They have planned this to prepare themselves to cater to the people's needs once the situation gets better all around and stand out from other service providers and make huge profits.
+
+
+They have contracted a consulting company to understand the factors on which the demand for these shared bikes depends. Specifically, they want to understand the factors affecting the demand for these shared bikes in the American market. The company wants to know:
+
+Which variables are significant in predicting the demand for shared bikes.
+How well those variables describe the bike demands
+Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors. 
+
+
+Business Goal:
+You are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
+
